@@ -1,0 +1,46 @@
+====================API RESTful WITH NODE JS=================================
+1-Initialiser le projet : npm init
+pour initialiser le fichier package.json
+
+2- Installation du framework express.js 
+npm install express
+express c'est le framework qui permet de faire un server facilement avec node.js
+
+3- Installation de nodemon : il permet de lancer notre server et mettre a jour pour toutes les modifications
+npm install nodemon --save-dev
+
+4- processus pour mettre en place un petit server de base
+	- installer express
+	-creer un fichier server.js et importer express
+	- instancier express 
+	-configurer une route de base : server.get("/",(req,res){
+		res.setHeader('Content-Type', 'application/json');
+    		res.status(200).json({"response" : "Hello, world!"});
+	});
+	- mettre le server sur ecoute : server.listen(port)
+
+5- Installation de sequelize : sequelize est un ORM qui nous permet de gerer notre base de donner de facon simple comme 
+l'ORM de laravel Olequent ORM comme Eloquent ORM, sequelize ne gere que les SGBD SQL pas du no-sql
+	a- installation de la cli
+	   npm install -g sequelize-cli
+	b- installation de sequlize dans la racine du projet
+	   npm install --save sequelize
+	c- installation d'un SGBD
+	   npm install mysql par exemple
+	c- Initialisation de sequelize
+	   sequelize init 
+	d-la documentation de sequelize :https://sequelize.org/
+
+6- Installation de Json Web Token : JWT est un package d'authentification, il nous permet de 
+verifier l'acces a notre API
+	DOCUMENTATION : https://jwt.io/ 
+INSTALLATION : 
+	npm install jsonwebtoken --save
+INSTALLATION D'UN SYSTEM DE CRYPTAGE : bcrypt
+	npm install bcrypt --save
+INSTALLATION DE BODY-PARSER : il permet de convertir le contenu d'une donnees
+	npm body-parser --save
+
+	
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "cours-node-1",
+  "version": "1.0.0",
+  "description": "Creation d'une API RESTful avec NODE.Js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "api",
+    "rest",
+    "restful",
+    "js"
+  ],
+  "author": "guilavogui yaboigui",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
