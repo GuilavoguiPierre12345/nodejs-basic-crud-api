@@ -1,0 +1,27 @@
+{
+  "name": "api-restful-1",
+  "version": "1.0.0",
+  "description": "Une APIRESTfully avec nodeJs, mongoose, express",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodeJs",
+    "mongoose",
+    "APIRESTful"
+  ],
+  "author": "yaboigui-guilavogui",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
